@@ -8,7 +8,10 @@
 		<style>
 			h1{
 				text-align: center;
+			    font-family: fantasy;
+				font-style: italic;
 			}
+			
 			a:hover{
 				color: red;
 			}
@@ -19,15 +22,45 @@
 				font-size: 20px;
 				text-align: center;
 			}
+			
+			nav{
+				width: 180px;
+				height: 50px;
+			}
+			#wo{
+				line-height: 30px;
+				color: white;
+				padding-left: 30px;       /*左边距为30像素*/
+				background: rgba(0,0,0,0.9);
+			}
 		</style>
 		
 	</head>
 	<body>
 		
-		<h1>多幽c的个人网站</h1>
+		<toubu style="display: flex;flex-direction: column;align-items: center;">
+		<touxianglan style="width: 100%;height: 200px;background-color: #eee;display: flex;flex-direction:column;align-items:center;justify-content: center;">
+			
+			<h1>THE WORLD OF YOOI</h1>
+			<br />
+			<div style="border-radius: 100%; overflow: hidden;">
+				<img src="https://www.keaitupian.cn/cjpic/frombd/2/253/3501256442/294053598.jpg" width="80px" height="80px"/>
+			</div>
+			
+		</touxianglan>
+		
 		<p id="f">为了方便大家了解我，这是<a href="https://space.bilibili.com/383263396?spm_id_from=333.1007.0.0"target="_blank">我的B站主页</a>，有兴趣的话可以去看看</p>
-		<br />
-		<img src="https://moegirl.uk/images/0/0a/Mygo_anime_anon.png?20230723023505" width="80" height="110" />
+		<nav>
+			<p id="wo">yooi的观察日记</p>
+		</nav>
+		</toubu>
+		
+		<audio src="others/ダンスホールanon (V0).mp3" controls="controls" autoplay="true"></audio>
+		
+		<details>
+			<summary>我的爱好</summary>
+			<p>个人比较喜欢看番，打打游戏，看看小说什么的啦</p>
+		</details>
 		
 	</body>
 </html>
